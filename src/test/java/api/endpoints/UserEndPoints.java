@@ -15,6 +15,8 @@ public class UserEndPoints {
 
 	public static Response createUser(user payload)
 	{
+		
+		//Given return Response
 		Response response=given()
 				.header("Content-Type","application/json")
 				//.contentType(ContentType.JSON)
